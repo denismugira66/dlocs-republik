@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Dlocs Republik</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">Dlocs<span>Republik</span></a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">☰</button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header container">
+            <h1>Get in Touch</h1>
+        </section>
+
+        <section class="contact-section container">
+            <div class="contact-grid">
+                <!-- contact info -->
+                <div class="contact-info">
+                    <h2>📍 Visit Us</h2>
+                    <p>Kabuku Junction, Limuru<br>near St Paul's University, Kenya</p>
+
+                    <h2>📞 Call / WhatsApp</h2>
+                    <p><a href="tel:+254727399008">+254 727 399 008</a><br>
+                    <a href="https://wa.me/254727399008" target="_blank">Chat on WhatsApp</a></p>
+
+                    <h2>✉️ Email</h2>
+                    <p><a href="mailto:dlocsrepublik@gmail.com">dlocsrepublik@gmail.com</a></p>
+
+                    <h2>🌐 Social</h2>
+                    <div class="social-links-vertical">
+                        <a href="https://instagram.com/dlocsrepublik" target="_blank">Instagram</a>
+                        <a href="https://tiktok.com/@dlocs.kabuku.junction" target="_blank">TikTok</a>
+                    </div>
+
+                    <a href="https://wa.me/254727399008" class="btn btn-gold btn-wa" target="_blank">📲 WhatsApp Now</a>
+                </div>
+
+                <!-- contact form -->
+                <div class="contact-form">
+                    <h2>Send a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-gold">Send Message</button>
+                        <p class="form-feedback" id="formFeedback"></p>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Google Maps placeholder -->
+            <div class="map-placeholder">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.753624671302!2d36.63324157482655!3d-1.1373028988623114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f2414d78f6ab7%3A0xad920d0a0a9c9faa!2sSt%20Paul&#39;s%20University!5e0!3m2!1sen!2ske!4v1712672345678" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <h3>Dlocs Republik</h3>
+                <p>Beauty & grooming specialists</p>
+            </div>
+            <div>
+                <p><strong>📍 Location</strong><br>Kabuku Junction, Limuru<br>near St Paul's University</p>
+            </div>
+            <div>
+                <p><strong>📞 Phone</strong><br><a href="tel:+254727399008">+254 727 399 008</a></p>
+                <p><strong>✉️ Email</strong><br><a href="mailto:dlocsrepublik@gmail.com">dlocsrepublik@gmail.com</a></p>
+            </div>
+            <div class="social-links">
+                <a href="https://instagram.com/dlocsrepublik" target="_blank">IG</a>
+                <a href="https://tiktok.com/@dlocs.kabuku.junction" target="_blank">TT</a>
+                <a href="https://wa.me/254727399008" target="_blank">WA</a>
+            </div>
+            <div class="copyright">
+                <p>© 2026 Dlocs Republik. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/254727399008" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
